@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+}
+#main-div{
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:0 7px 15px black  ;
+}
+.hero{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.order-summary{
+    margin-top: 30px;
+    font-size: 33px;
+    font-weight: 700;
+}
+.main-txt{
+    margin-top: 25px;
+    text-align: center;
+    width: 270px;
+    font-size :19px;
+    line-height:25px;
+    color: gray;
+}
+.annual-div{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:60%;
+}
+.change{
+    color:rgb(44, 24, 153);
+    font-weight: 600;
+}
+.cost{
+    color:gray;
+}
+.button1{
+    background-color:rgb(44, 24, 153);
+    color:white;
+    padding:15px 50px;
+    border-radius: 10px;
+    border:0;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button1:active{
+    box-shadow: inset rgba(0, 0, 0, 0.5) -2px -2px 5px;
+}
+.button2{
+    color:gray;
+    font-size: 18px;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button2:active{
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px}
